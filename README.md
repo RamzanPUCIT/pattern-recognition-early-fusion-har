@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:134E5E,100:71B280&height=220&section=header&text=Human%20Activity%20Recognition&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Early%20Fusion%20of%20Multimodal%20Wearable%20Sensors%20-%20CogAge%20Dataset&descSize=18&descAlignY=56" width="100%" alt="Human Activity Recognition banner"/>
-
-<a href="#-key-results">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=71B280&center=true&vCenter=true&width=720&lines=Smartphone+%2B+Smartwatch+%2B+Smart+Glasses;9+sensor+streams+fused+into+27+channels;LSTM+vs+Simple+RNN+vs+CNN-LSTM;Subject-dependent+vs+subject-independent;Best+test+accuracy%3A+81.82%25+(LSTM)" alt="Typing animation"/>
-</a>
+<a href="#-pipeline"><img src="assets/readme/hero.svg" width="100%" alt="Three devices, one fused signal: animated overview of early-fusion human activity recognition"/></a>
 
 <br/>
 
@@ -36,6 +32,21 @@ Nine sensor streams from three devices are resampled to the same length and conc
 <td align="center"><b>12</b><br/>activities</td>
 <td align="center"><b>436</b><br/>samples</td>
 <td align="center"><b>3</b><br/>models compared</td>
+</tr>
+</table>
+
+---
+
+## ✨ Highlights
+
+<table>
+<tr>
+<td width="50%"><a href="#-pipeline"><img src="assets/readme/card-01-fusion.svg" width="100%" alt="Early fusion: nine sensor streams from three devices fused into one input"/></a></td>
+<td width="50%"><a href="#-models"><img src="assets/readme/card-02-models.svg" width="100%" alt="Three models: LSTM, Simple RNN and CNN-LSTM"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="#-key-results"><img src="assets/readme/card-03-results.svg" width="100%" alt="81.8% subject-dependent test accuracy with a 2-layer LSTM"/></a></td>
+<td width="50%"><a href="Report.pdf"><img src="assets/readme/card-04-gap.svg" width="100%" alt="The generalization gap: 82% on seen people versus at most 23% on a new person"/></a></td>
 </tr>
 </table>
 
@@ -167,6 +178,7 @@ pip install torch numpy pandas scikit-learn matplotlib
 pattern-recognition-early-fusion-har/
 ├── earlyfusion.ipynb   # Full pipeline: loading, fusion, training, evaluation
 ├── Report.pdf          # Detailed write-up of the method and results
+├── assets/readme/      # Animated README graphics (SVG)
 └── README.md
 ```
 
@@ -194,6 +206,5 @@ pattern-recognition-early-fusion-har/
 
 ⭐ **If this project helped you, consider giving it a star!** ⭐
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:134E5E,100:71B280&height=120&section=footer" width="100%" alt="footer"/>
 
 </div>
